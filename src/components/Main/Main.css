@@ -11,7 +11,7 @@
     justify-content: space-between;
     font-size: 22px;
     padding: 20px;
-    color: #2e8b57; /* Green text */
+    color: #ffd700; /* Green text */
 }
 
 .main .nav img{
@@ -27,22 +27,22 @@
 .main .greet{
     margin: 50px 0px;
     font-size: 56px;
-    color: #87ceeb; /* Blue text */
+    color: #32cd32; /* Green text */
     font-weight: 500;
     padding: 20px;
 }
 
 .main .greet span{
-    background: -webkit-linear-gradient(16deg, #32cd32, #1e90ff); /* Green and blue gradient */
+    background: -webkit-linear-gradient(16deg, #32cd32 20%, #ffd700 80%); /* Green and yellow gradient */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .main .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 15px;
-    padding: 20x;
+    padding: 20px;
 }
 
 .main .card{
@@ -58,23 +58,23 @@
     width: 35px;
     padding: 5px;
     position:absolute;
-    background-color: white;
+    background-color: #ffd700; /* Yellow background */
     border-radius: 20px;
     bottom: 10px;
     right: 10px;
 }
 
 .main .card p{
-    color: #2e8b57; /* Green text */
+    color: #2e8b57; /* Dark green text */
     font-size: 17px;
 }
 
 .main .card:hover{
-    background-color: #add8e6; /* Light blue hover */
+    background-color: #ffd700; /* Yellow hover */
 }
 
 .main-bottom{
-    position:absolute;
+    position: absolute;
     bottom: 0;
     width: 100%;
     max-width: 900px;
@@ -87,7 +87,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #e0ffff; /* Light cyan background */
+    background-color: #e0ffe0; /* Light green background */
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -117,7 +117,7 @@
     margin: 15px auto;
     text-align: center;
     font-weight: 300;
-    color: #4682b4; /* Steel blue text */
+    color: #32cd32; /* Green text */
 }
 
 .result{
@@ -159,7 +159,7 @@
     border-radius: 4px;
     border: none;
     border-color: #f6f7f8;
-    background: linear-gradient(to right, #32cd32,#ffffff,#1e90ff); /* Green to blue gradient */
+    background: linear-gradient(to right, #32cd32, #ffd700); /* Green to yellow gradient */
     background-size: 800px 50px;
     height: 20px;
     animation: loader 3s infinite linear;
@@ -178,7 +178,7 @@
     font-size: 17px;
     font-weight: 300;
     line-height: 1.8;
-    color: #4682b4; /* Steel blue text */
+    color: #2e8b57; /* Dark green text */
 }
 
 @media (max-width:600px){
